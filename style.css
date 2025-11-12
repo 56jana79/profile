@@ -444,6 +444,7 @@
             transition: var(--transition-smooth);
             z-index: 100;
         }
+        
 
         .theme-toggle:hover {
             transform: scale(1.1);
