@@ -2,8 +2,8 @@
             --background: hsl(210, 20%, 98%);
             --foreground: hsl(215, 25%, 15%);
             --card: hsl(0, 0%, 100%);
-            --primary: hsl(179, 79%, 47%);
-            --primary-glow: hsl(189, 85%, 55%);
+            --primary: rgb(202, 30, 30);
+            --primary-glow: hsl(223, 75%, 47%);
             --secondary: hsl(210, 15%, 92%);
             --muted: hsl(210, 15%, 95%);
             --muted-foreground: hsl(215, 16%, 45%);
@@ -22,14 +22,14 @@
             --background: hsl(215, 25%, 12%);
             --foreground: hsl(210, 20%, 98%);
             --card: hsl(215, 25%, 15%);
-            --primary: hsl(189, 85%, 55%);
-            --primary-glow: hsl(189, 85%, 65%);
+            --primary: hsl(189, 45%, 9%);
+            --primary-glow: hsl(340, 100%, 58%);
             --secondary: hsl(215, 20%, 20%);
             --muted: hsl(215, 20%, 18%);
             --muted-foreground: hsl(215, 15%, 60%);
             --accent: hsl(25, 95%, 60%);
             --border: hsl(215, 20%, 22%);
-            --gradient-hero: linear-gradient(135deg, hsl(189, 85%, 45%) 0%, hsl(189, 85%, 60%) 100%);
+            --gradient-hero: linear-gradient(135deg, hsl(189, 90%, 35%) 0%, hsl(189, 89%, 38%) 100%);
             --gradient-subtle: linear-gradient(180deg, hsl(215, 25%, 12%) 0%, hsl(215, 25%, 14%) 100%);
             --shadow-glow: 0 0 40px hsla(189, 85%, 55%, 0.25);
         }
