@@ -492,6 +492,29 @@
                 opacity: 0.5;
             }
         }
+        /* Reveal Animations */
+.reveal-left, .reveal-right, .reveal {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: var(--transition-smooth);
+}
+
+.reveal-left {
+  transform: translateX(-60px);
+}
+
+.reveal-right {
+  transform: translateX(60px);
+}
+
+.reveal.active,
+.reveal-left.active,
+.reveal-right.active {
+  opacity: 1;
+  transform: translateX(0);
+  transform: translateY(0);
+}
+
 
         .fade-in {
             opacity: 0;
